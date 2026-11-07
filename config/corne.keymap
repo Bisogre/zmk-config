@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&mt {
+/&mt {
   tapping-term-ms = <250>; //default is 200ms
 };
 
@@ -53,7 +53,7 @@
                         bindings = <
    &none &kp  LSHFT(N1)  &kp LSHFT(N2)    &kp LSHFT(N3) &kp LSHFT(N4) &kp LSHFT(N5)          &kp LSHFT(N6)   &kp LSHFT(N7)  &kp LSHFT(N8)   &kp LSHFT(N9) &kp LSHFT(N0) &none
    &none &kp GRAVE       &kp LEFT         &kp DOWN      &kp RIGHT     &kp UP                 &kp MINUS       &kp EQUAL      &kp LBKT        &kp RBKT      &kp BSLH      &none 
-   &none &none           &msc SCRL_DOWN   &msc SCRL_UP  &mkp MB1      &mkp MB2               &mmv MOVE_LEFT  &mmv MOVE_DOWN &mmv MOVE_RIGHT &mmv MOVE_UP  &kp APOS      &none
+   &none &none          &msc SCRL_DOWN   &msc SCRL_UP  &mkp MB1      &mkp MB2               &mmv MOVE_LEFT  &mmv MOVE_DOWN &mmv MOVE_RIGHT &mmv MOVE_UP  &kp APOS      &none
                                        &mo 3         &kp LSHFT     &kp SPACE              &kp RET   &trans    &trans 
                         >;
                 };
